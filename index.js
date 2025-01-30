@@ -11,14 +11,17 @@
 
 import { Expression } from './src/expression';
 import { Parser } from './src/parser';
+import expressionToString from './src/expression-to-string';
 
 export {
+  expressionToString,
   Expression,
   Parser
 };
 
 // Backwards compatibility
 export default{
+  expressionToString: expressionToString,
   Parser: Parser,
   Expression: Expression
 };
