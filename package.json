@@ -1,7 +1,7 @@
 {
-  "name": "expr-eval",
+  "name": "@ditscheri/expr-eval",
   "version": "2.0.2",
-  "description": "Mathematical expression evaluator",
+  "description": "Mathematical expression evaluator (custom fork)",
   "main": "dist/bundle.js",
   "module": "dist/index.mjs",
   "typings": "parser.d.ts",
@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silentmatt/expr-eval.git"
+    "url": "git+https://github.com/ditscheri/expr-eval.git"
   },
   "keywords": [
     "expression",
@@ -49,7 +49,7 @@
   "author": "Matthew Crumley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silentmatt/expr-eval/issues"
+    "url": "https://github.com/ditscheri/expr-eval/issues"
   },
-  "homepage": "https://github.com/silentmatt/expr-eval#readme"
+  "homepage": "https://github.com/ditscheri/expr-eval#readme"
 }
